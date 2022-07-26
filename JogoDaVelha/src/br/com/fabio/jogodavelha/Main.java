@@ -1,9 +1,18 @@
 package br.com.fabio.jogodavelha;
 
+/**
+ * Classe para lançar o jogo
+ */
 public class Main {
 
-	public static void main(String[] args) {
-		
-		
+	/**
+	 * Método main
+	 * @param args
+	 * @throws Exception
+	 */
+	public static void main(String[] args) throws Exception {
+		// Instancia o jogo e incia
+		Jogo jogo = new Jogo();
+		jogo.jogar();
 	}
 }
